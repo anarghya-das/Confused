@@ -1,2 +1,2 @@
-for o in arr:
-#     print(o['name'])
+# for o in arr:
+# #     print(o['name'])
