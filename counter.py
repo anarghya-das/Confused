@@ -11,8 +11,7 @@ class WeatherText(object):
                 results) + "?apikey=" + apiKey).read()
         arr = json.loads(contents)
         with open('cache.json', 'w') as f:
-            for item in range(len(arr)):
-                f.write("%s\n" % arr[item])
+            f.write(json.dumps(arr))
         return arr
 
     def get_key(self):
@@ -27,4 +26,6 @@ class WeatherText(object):
             else:
                 nodups.append(i)
         return json.dumps(nodups)
+
+
 
