@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
-        <title>Test Index</title>
+        <title>Confused?</title>
+        <link rel="stylesheet" type="text/css"
+            href="{{url_for('static',filename='style.css')}}">
     </head>
     <body>
-        <h1>It Works!</h1>
-        <a  class="twitter-timeline" href="https://twitter.com/snowmoneyy_?ref_src=twsrc%5Etfw">Tweets by snowmoneyy_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <h1>Wegmans Twitter Bot</h1>
+        <div class="feed">
+            <a class="twitter-timeline tw-align-center"
+                href="https://twitter.com/snowmoneyy_?ref_src=twsrc%5Etfw"
+                data-related="twitterapi,twitter"
+                data-aria-polite="assertive" width="800" height="800" lang="EN">Tweets
+                by
+                snowmoneyy_</a> <script async
+                src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <button onclick="alert('word');">Submit a Tweet</button>
     </body>
 </html>

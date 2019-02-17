@@ -1,9 +1,11 @@
 import json
 import random 
 import bot
+from flask import current_app
+
 
 def tweetTweet():
-    with open('cache.json','r') as f:
+    with current_app.open_resource("{{url_for('static',filename='pic.png')}}",'r') as f:
         js=f.read()
 
     ob=json.loads(js)
