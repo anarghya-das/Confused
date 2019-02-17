@@ -1,7 +1,5 @@
 import tweepy
 import time
-# NOTE: I put my keys in the keys.py to separate them
-# from this main file.
 import tweepy
 
 CONSUMER_KEY = 'baK58eDxGX0vybD2stNRcXtj5'
