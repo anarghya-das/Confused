@@ -16,7 +16,7 @@ def toarr():
     return json.dumps(final)
 
 def getInfo(condition):
-    apiKey = "NMX2QYEuqSjNe8MBf6gE7uHoTSeu7KIB"
+    apiKey = "BT9pY5sWW9RyxcJpUXj7J85hfa7fqQCI"
     results = 50  # 50,100,150
     contents = urllib.request.urlopen(
         "http://dataservice.accuweather.com/currentconditions/v1/topcities/" + str(
@@ -33,7 +33,7 @@ def getInfo(condition):
             each.update(lon)
             each.update(ofmap)
             al.append(each)
-    return al
+    return json.dumps(al)
 
 print(toarr())
 print(getInfo('Mostly cloudy'))
