@@ -5,10 +5,11 @@ from pyowm import OWM
 
 class WeatherText(object):
     def __init__(self):
-        self.mapper = {}
+        self.mapper = dict={}
+        self.mapper2={}
 
     def toarr(self):
-        apiKey = "NMX2QYEuqSjNe8MBf6gE7uHoTSeu7KIB"
+        apiKey = "BT9pY5sWW9RyxcJpUXj7J85hfa7fqQCI"
         results = 50  # 50,100,150
         contents = urllib.request.urlopen(
             "http://dataservice.accuweather.com/currentconditions/v1/topcities/" + str(
@@ -37,9 +38,10 @@ class WeatherText(object):
             l.append(ofmap)
             l.append(lon)
             l.append(lat)
-            print(l)
+            # print(l)
             self.mapper[arr[i]['WeatherText']] = l
             weather_type.append(arr[i]['WeatherText'])
+        print(self.mapper)
         for i in weather_type:
             if i in nodups:
                 continue
@@ -48,6 +50,7 @@ class WeatherText(object):
         return json.dumps(nodups)
 
     def getMapper(self):
+        print(self.mapper)
         return self.mapper
 
 

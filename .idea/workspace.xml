@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c36e0e06-d81a-45c7-8332-3c1be171fcef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/counter.py" afterDir="false" />
     </list>
@@ -13,11 +14,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/counter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="40" column="12" selection-start-line="39" selection-start-column="20" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="499">
+              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wanted.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -29,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/cache.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="11453" selection-start-column="11444" selection-end-column="11456" />
+              <caret column="11453" selection-start-column="11453" selection-end-column="11453" />
             </state>
           </provider>
         </entry>
@@ -66,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1081" />
     <option name="y" value="166" />
     <option name="width" value="693" />
@@ -107,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.counter">
+  <component name="RunManager" selected="Python.wanted">
     <configuration name="counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BrickServer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,8 +162,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wanted" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BrickServer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wanted.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wanted" />
         <item itemvalue="Python.counter" />
         <item itemvalue="Python.tester" />
       </list>
@@ -171,19 +205,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1853" height="1053" extended-state="7" />
+    <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07759563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07759563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32937366" />
       <window_info anchor="bottom" id="Python Console" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,14 +244,23 @@
     <entry file="file://$PROJECT_DIR$/cache.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="11453" selection-start-column="11444" selection-end-column="11456" />
+          <caret column="11453" selection-start-column="11453" selection-end-column="11453" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="40" column="12" selection-start-line="39" selection-start-column="20" selection-end-line="40" selection-end-column="12" />
+        <state relative-caret-position="499">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wanted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

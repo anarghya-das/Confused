@@ -3,7 +3,7 @@ import urllib.request
 from pyowm import OWM
 
 def toarr():
-    apiKey = "NMX2QYEuqSjNe8MBf6gE7uHoTSeu7KIB"
+    apiKey = "BT9pY5sWW9RyxcJpUXj7J85hfa7fqQCI"
     results = 50  # 50,100,150
     contents = urllib.request.urlopen(
         "http://dataservice.accuweather.com/currentconditions/v1/topcities/" + str(
