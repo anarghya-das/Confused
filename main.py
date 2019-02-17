@@ -1,7 +1,8 @@
 from flask import Flask, render_template
-import test
+import counter
 
 app = Flask(__name__)
+obj = counter.WeatherText()
 
 
 @app.route("/")
@@ -11,7 +12,7 @@ def index():
 
 @app.route("/spit")
 def get_data():
-    return test.spitJson()
+    return obj.get_key()
 
 
 if __name__ == '__main__':

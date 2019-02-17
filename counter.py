@@ -23,9 +23,4 @@ class WeatherText(object):
                 continue
             else:
                 nodups.append(i)
-        return weather_type
-    def filer(self,):
-
-
-obj = WeatherText()
-print(obj.get_key())
+        return nodups
