@@ -1,8 +1,7 @@
 from flask import Flask, render_template
-import counter
+import twitter
 
 app = Flask(__name__)
-obj = counter.WeatherText()
 
 
 @app.route("/")
@@ -10,9 +9,9 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/spit")
+@app.route("/tweet")
 def get_data():
-    return obj.get_key()
+    return twitter.tweetTweet()
 
 
 if __name__ == '__main__':
