@@ -11,4 +11,6 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 
-api.update_status("Tweet here")
+
+def tweet(twt):
+    api.update_status(twt)

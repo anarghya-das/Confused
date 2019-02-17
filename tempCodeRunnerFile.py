@@ -1,5 +1,2 @@
-
-
-@app.route("/spit")
-def get_data():
-    return obj.get_key()
+for o in arr:
+#     print(o['name'])
