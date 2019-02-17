@@ -23,4 +23,5 @@ class WeatherText(object):
                 continue
             else:
                 nodups.append(i)
-        return nodups
+        return json.dumps(nodups)
+
