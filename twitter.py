@@ -18,4 +18,4 @@ def tweetTweet():
         finalArr.append(o['name'])
     idx=random.randint(0,1914)
     bot.tweet(finalArr[idx])
-    return True
+    return "sucess"
