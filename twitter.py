@@ -13,8 +13,9 @@ def tweetTweet():
 
     obj=json.loads(r.content)
     arr=obj['recipes']
-    finalArr=[]
+    finalArr=[] 
     for o in arr:
-            finalArr.append(o['name'])
+        finalArr.append(o['name'])
     idx=random.randint(0,1914)
     bot.tweet(finalArr[idx])
+    return True
