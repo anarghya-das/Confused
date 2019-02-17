@@ -1,6 +1,6 @@
 import json
 import urllib.request
-
+from pyowm import OWM
 
 class WeatherText(object):
     def toarr(self):
@@ -10,6 +10,9 @@ class WeatherText(object):
             "http://dataservice.accuweather.com/currentconditions/v1/topcities/" + str(
                 results) + "?apikey=" + apiKey).read()
         arr = json.loads(contents)
+        with open('cache.json', 'w') as f:
+            for item in range(len(arr)):
+                f.write("%s\n" % arr[item])
         return arr
 
     def get_key(self):
